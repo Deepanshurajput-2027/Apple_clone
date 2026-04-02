@@ -1,0 +1,11 @@
+const ProfileCard = () => {
+  return (
+    <div className="flex p-4">
+      <img src="/user.jpg" alt="User profile picture" />
+      <button onClick={handleOpen} aria-label="Edit profile">
+        <span className="icon">edit</span>
+      </button>
+      <p style={{ color: '#999' }}>Inactive</p>
+    </div>
+  );
+};
