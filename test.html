@@ -2,7 +2,7 @@ const ProfileCard = () => {
   return (
     <div className="flex p-4">
       <img src="/user.jpg" alt="User profile picture" />
-      <button onClick={handleOpen} aria-label="Edit profile">
+      <button onClick={handleOpen} aria-label="Edit profile" role="button" tabIndex={0}>
         <span className="icon" aria-hidden="true">edit</span>
       </button>
       <p style={{ color: '#999' }}>Inactive</p>
